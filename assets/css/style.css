@@ -16,7 +16,12 @@
 }
 /* Header Style */
 header {
-    background-color: lightcoral;
+    background-color: #ffffff;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    z-index: 99;
+    padding: 0 1rem;
+    position: fixed;
 }
 h1 {
     font-family: "Oswald", sans-serif;
