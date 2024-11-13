@@ -1,3 +1,5 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -8,17 +10,24 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    /* General Style */
     color: #3a3a3a;
+    font-family: "Lato", sans-serif;
 }
 /* Header Style */
 header {
     background-color: lightcoral;
 }
+h1 {
+    font-family: "Oswald", sans-serif;
+}
 /* Main Content Style */
 main {
     background-color: lightblue;
     flex: 1 0 auto;
+    
 }
+
 /* Footer Style */
 footer {
     background-color: orange;
