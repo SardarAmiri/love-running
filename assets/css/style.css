@@ -3,15 +3,23 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* Wrapper class style */
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #3a3a3a;
+}
 /* Header Style */
 header {
-    background-color: blueviolet;
+    background-color: lightcoral;
 }
 /* Main Content Style */
 main {
-    background-color: aquamarine;
+    background-color: lightblue;
+    flex: 1 0 auto;
 }
 /* Footer Style */
 footer {
-    background-color: brown;
+    background-color: orange;
 }
