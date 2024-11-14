@@ -26,7 +26,7 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-h1 {
+h1, h2, h3 {
     font-family: "Oswald", sans-serif;
     color: #252525;
     text-transform: uppercase;
@@ -78,7 +78,22 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center/ cover;
+    position: relative;
 }
+#text-cover {
+    background-color: rgb(241, 109, 107, .7);
+    width: 80%;
+    min-height: 200px;
+    font-size: 130%;
+    position: absolute;
+    padding-top: 40px;
+    padding-left: 10px;
+    bottom: 30px;
+}
+#text-cover > h2, #text-cover > h3 {
+    color: #ffffff;
+}
+
 /* Footer Style */
 #social-icons {
     text-align: center;
@@ -118,6 +133,11 @@ main {
     }
     main {
         margin-top: 78px;
+    }
+    /* hero */
+    #text-cover {
+        width: 300px;
+        right: 50px;
     }
 }
 
