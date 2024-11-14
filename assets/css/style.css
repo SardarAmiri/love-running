@@ -176,6 +176,14 @@ margin-bottom: 20px;
     color: #3a3a3a;
 }
 
+/* mdeia query for large or landscap device */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 /* media query for tablet and larger device 768px */
 
 @media screen  and (min-width: 768px){
@@ -220,6 +228,10 @@ margin-bottom: 20px;
         text-align: end;
         align-self: flex-end;
     }
+    #photos {
+        column-count: 3;
+       
+    }
     
 }
 
@@ -242,6 +254,10 @@ margin-bottom: 20px;
     #benefits-physical {
         order: 0;
 
+    }
+    #photos {
+        column-count: 4;
+       
     }
     
 }
