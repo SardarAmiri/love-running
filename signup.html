@@ -52,7 +52,69 @@
       <!-- Main Content -->
       <main>
         <!-- Hero Section -->
-        <section id="hero"></section>
+        <section id="signup">
+          <form
+            action="https://formdump.codeinstitute.net"
+            id="signup-form"
+            method="POST"
+          >
+            <h2>
+              <i class="fa-solid fa-heart-pulse"></i> LET'S GET YOU SIGN UP
+            </h2>
+            <label for="first-name">First Name</label>
+            <input
+              class="text-input"
+              type="text"
+              id="first-name"
+              name="first-name"
+              required
+            /><br />
+            <label for="last-name">Last Name</label>
+            <input
+              type="text"
+              id="last-name"
+              name="last-name"
+              required
+              class="text-input"
+            /><br />
+            <label for="email-address">Email Address</label>
+            <input
+              type="email"
+              id="email-address"
+              name="email-address"
+              required
+              class="text-input"
+            />
+            <div class="radio-buttons">
+              <label for="road">Road</label>
+              <input
+                type="radio"
+                name="running-perference"
+                id="road"
+                value="Road"
+                required
+              /><br />
+              <label for="trail">Trail</label>
+              <input
+                type="radio"
+                name="running-perference"
+                id="trail"
+                value="Trail"
+                required
+              /><br />
+              <label for="both">Both</label>
+              <input
+                type="radio"
+                name="running-perference"
+                id="both"
+                value="Both"
+                required
+              />
+            </div>
+
+            <input type="submit" class="join-button" value="Let's Run" />
+          </form>
+        </section>
       </main>
       <!-- Footer -->
       <footer>
