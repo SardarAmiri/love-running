@@ -153,6 +153,15 @@ margin-bottom: 20px;
 #times h3 {
     color: #ffffff;
 }
+/* Style For Gallery Page  */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+
+}
+#photos {
+    line-height: 0;
+}
 /* Footer Style */
 #social-icons {
     text-align: center;
